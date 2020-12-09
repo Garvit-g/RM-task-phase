@@ -124,13 +124,6 @@ for(i=0;i<=x-1;i++)
         dt[j][i]=d[i][j];
         }
     }
-/*for(i=0;i<=x-1;i++)
-    {
-        for(j=0;j<=y-1;j++)
-        {
-        c[i][j]=d[i][j];
-        }
-    }
-return c;*/
+
 }
 
