@@ -1,0 +1,19 @@
+#include <Stepper.h>
+#include <stdio.h>
+int spr=2048;//spr=steps per revolution It varies for motor to motor and cannot be changed for a motor
+Stepper mystepper(spr,8,9,10,11);//the configuration pins also varies motor to motor
+int mspeed=10;//mspeed=motor speed (measured in rpm) 
+int d=500;
+void setup()
+{
+  Serial.begin(9600);
+  mystepper.setSpeed(mspeed);
+}
+
+void loop()
+{
+  mystepper.step(spr);
+  delay(d);
+  mystepper.step(-spr);
+  delay(d);
+}
