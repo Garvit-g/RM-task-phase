@@ -1,0 +1,26 @@
+int xpin=A2;
+int ypin=A3;
+int spin=9;
+int xval;
+int yval;
+int sval;
+int dt=1000;
+void setup()
+{
+pinMode(xpin,INPUT);
+pinMode(ypin,INPUT);
+pinMode(spin,INPUT);
+digitalWrite(spin,HIGH);
+}
+void loop()
+{
+xval=analogRead(xpin);
+yval=analogRead(ypin);
+sval=digitalRead(spin);
+Serial.print("The value of x is ")
+Serial.print(xval);
+Serial.print("The value of y is ")
+Serial.print(yval);
+Serial.print("the state of switch is ");
+Serial.print(sval);
+}
