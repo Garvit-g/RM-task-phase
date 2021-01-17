@@ -1,6 +1,6 @@
 # RM-task-phase
-   ##Things done till now<h3>
-      1)C++ programming    
+   <h4>Things done till now</h4>
+      <h3>1)C++ programming</h3>    
           a)[amicable numbers](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/amicable%20numbers.cpp)   
           b)[converting complementary matrix elements of rows and columns to 0 which contain 0](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/converting%20matrix%20elements.cpp)     
           c)[hill numbers](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/hill%20number.cpp)   
