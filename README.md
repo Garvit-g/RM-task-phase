@@ -17,4 +17,8 @@
           n)[euclidean algorithm](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/euclidean%20algo.cpp)                       
           o)[calculating factorial using recursion](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/factorial.cpp)                  
           p)[fibonacci using recursion](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/fib_recursion.cpp)                 
-          q)[sum of digits of a number using recursion](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/sum_of_digit1.cpp)             
+          q)[sum of digits of a number using recursion](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/sum_of_digit1.cpp)
+      <h3>2)Tinkercad tasks      
+            *[alternate blinking led](https://www.tinkercad.com/things/bPzYhfvbzow-alternating-led/editel?sharecode=BGtOHQ5GRXSGNIOVBxmc_unPrmGPlW8rHe_rzLvhe0E)     
+            *[fading led](https://www.tinkercad.com/things/6wW21ZhfYsi-fading-led/editel?sharecode=76u-eJ2A9WvHV7BBMIRMS1RKl0JdsdFl9W6WzHOAHgc)
+            *[
