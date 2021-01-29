@@ -1,0 +1,137 @@
+int trigpinf=2;
+int echopinf=3;
+int trigpinr=4;
+int echopinr=5;
+int trigpinb=6;
+int echopinb=7;
+int trigpinl=8;
+int echopinl=9;
+int v=30;
+int olddir;
+int newdir;
+void setup()
+{
+  pinMode(trigpinf, OUTPUT);
+  pinMode(echopinf,INPUT);
+  pinMode(trigpinr, OUTPUT);
+  pinMode(echopinr,INPUT);
+  pinMode(trigpinb, OUTPUT);
+  pinMode(echopinb,INPUT);
+  pinMode(trigpinl, OUTPUT);
+  pinMode(echopinl,INPUT);
+}
+int DistanceFromLeftSensor()
+{	
+    int d,t;
+  	digitalWrite(trigpinl, LOW);
+	delay(200);
+	digitalWrite(trigpinl, HIGH);
+	delayMicroseconds(200);
+	digitalWrite(trigpinl, LOW);
+	t= pulseIn(echopinl, HIGH);
+	d= t*(0.034)/(2);
+    return (d);
+}
+int DistanceFromRightSensor()
+{
+    int d,t;
+  	digitalWrite(trigpinr, LOW);
+	delay(200);
+	digitalWrite(trigpinr, HIGH);
+	delayMicroseconds(200);
+	digitalWrite(trigpinr, LOW);
+	t= pulseIn(echopinr, HIGH);
+	d= t*(0.034)/(2);
+    return (d);
+}
+int DistanceFromFrontSensor()
+{
+    int d,t;
+  	digitalWrite(trigpinf, LOW);
+	delay(200);
+	digitalWrite(trigpinf, HIGH);
+	delayMicroseconds(200);
+	digitalWrite(trigpinf, LOW);
+	t= pulseIn(echopinf, HIGH);
+	d= t*(0.034)/(2);
+    return (d);
+  
+}
+int DistanceFromBackSensor()
+{
+    int d,t;
+  	digitalWrite(trigpinb, LOW);
+	delay(200);
+	digitalWrite(trigpinb, HIGH);
+	delayMicroseconds(200);
+	digitalWrite(trigpinb, LOW);
+	t= pulseIn(echopinb, HIGH);
+	d= t*(0.034)/(2);
+    return (d);
+}
+void loop()
+{
+  
+  int d1,d2,d3,d4;
+  d1=DistanceFromFrontSensor();
+  d2=DistanceFromLeftSensor();
+  d3=DistanceFromBackSensor();
+  d4=DistanceFromRightSensor();
+  
+  oldd=0;
+  move(v,0);
+  if(d1<=10 && d2<=10)
+  {
+    if(olddir=0)
+    {
+      newdir=270;
+      move(v,270);
+    }
+    else if(olddir=90)
+    {
+      newdir=180;
+      move(v,180);
+    }
+  }
+  if(d2<=10 && d3<=10)
+  {
+    if(olddir=90)
+    {
+      newdir=0;
+      move(v,0);
+    }
+    else if(olddir=180)
+    {
+      newdir=270;
+      move(v,270);
+    }
+  }
+if(d3<=10 && d4<=10)
+  {
+    if(olddir=180)
+    {
+      newdir=90;
+      move(v,90);
+    }
+    else if(olddir=270)
+    {
+      newdir=0;
+      move(v,0);
+    }
+  }
+  if(d4<=10 && d1<=10)
+  {
+    if(olddir=0)
+    {
+      newdir=90;
+      move(v,90);
+    }
+    else if(olddir=270)
+    {
+      newdir=180;
+      move(v,180);
+    }
+  }
+  olddir=newdir;
+  delay(500);
+}
