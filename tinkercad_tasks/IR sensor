@@ -1,1 +1,20 @@
+void setup()
+{
+  pinMode(9,INPUT);
+  pinMode(13, OUTPUT);
+}
 
+void loop()
+{
+  int statussensor=digitalRead(9);
+  if(statussensor==1)
+  {
+  digitalWrite(13, LOW);
+  delay(1000);
+  }
+  else
+  {
+  digitalWrite(13, HIGH);
+  delay(1000);
+  }
+}
