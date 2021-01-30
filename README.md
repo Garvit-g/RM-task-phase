@@ -10,10 +10,10 @@
           h)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week2/searching%20and%20sorting.cpp">searching and sorting</a><br>
           i)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week2/sorting%20of%20strings.cpp">sorting of strings</a><br>                     
           j)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week2/string%20copy(pointers).cpp">copying of strings using pointers</a><br>                    
-          k)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week2/string%20length(pointers).cpp"calculating length of pointers</a><br>                  
+          k)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week2/string%20length(pointers).cpp">calculating length of pointers</a><br>                  
           l)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/binary%20recursion.cpp">binary search using recursion</a><br>               
           m)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/bubble%20sort.cpp">bubble sort using recursion</a><br>                        
-          n)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/euclidean%20algo.cpp">euclidean algorithm</a>                       
+          n)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/euclidean%20algo.cpp">euclidean algorithm</a><br>                       
           o)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/factorial.cpp">calculating factorial using recursion</a><br>                  
           p)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/fib_recursion.cpp">fibonacci using recursion</a><br>                 
           q)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/sum_of_digit1.cpp">sum of digits of a number using recursion</a><br>
