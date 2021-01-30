@@ -85,12 +85,14 @@ void loop()
     if(olddir=0)
     {
       newdir=270;
-      move(v,270);
+      while(d4<=10)
+      {move(v,270);}
     }
     else if(olddir=90)
     {
       newdir=180;
-      move(v,180);
+      while(d3<=10)
+      {move(v,180);}
     }
   }
   if(d2<=10 && d3<=10)
@@ -98,12 +100,14 @@ void loop()
     if(olddir=90)
     {
       newdir=0;
-      move(v,0);
+      while(d1<=10)
+      {move(v,0);}
     }
     else if(olddir=180)
     {
       newdir=270;
-      move(v,270);
+      while(d4<=10)
+      {move(v,270);}
     }
   }
 if(d3<=10 && d4<=10)
@@ -111,12 +115,14 @@ if(d3<=10 && d4<=10)
     if(olddir=180)
     {
       newdir=90;
-      move(v,90);
+      while(d2<=10)
+      {move(v,90);}
     }
     else if(olddir=270)
     {
       newdir=0;
-      move(v,0);
+      while(d1<=10)
+      {move(v,0);}
     }
   }
   if(d4<=10 && d1<=10)
@@ -124,12 +130,14 @@ if(d3<=10 && d4<=10)
     if(olddir=0)
     {
       newdir=90;
-      move(v,90);
+      while(d2<=10)
+      {move(v,90);}
     }
     else if(olddir=270)
     {
       newdir=180;
-      move(v,180);
+      while(d3<=10)
+      {move(v,180);}
     }
   }
   olddir=newdir;
