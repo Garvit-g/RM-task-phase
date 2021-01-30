@@ -1,8 +1,8 @@
 # RM-task-phase
    <h4>Things done till now</h4>
       <h3>1)C++ programming</h3>    
-          a)[amicable numbers](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/amicable%20numbers.cpp)         
-          b)[converting complementary matrix elements of rows and columns to 0 which contain 0](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/converting%20matrix%20elements.cpp)                  
+          a)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/amicable%20numbers.cpp">amicable numbers</a>         
+          b)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/converting%20matrix%20elements.cpp">converting complementary matrix elements of rows and columns to 0 which contain 0</a>                  
           c)[hill numbers](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/hill%20number.cpp)         
           d)[multiplication numbers](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/multiplication%20of%20matices.cpp)           
           e)[converting number to octal,binary,hexadecimal](https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/number%20conversion.cpp)      
