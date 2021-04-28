@@ -1,0 +1,21 @@
+#include <Servo.h>
+int servopin=9;
+int servopos=0;
+Servo myservo;
+void setup()
+{
+  myservo.attach(servopin);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  Serial.println("Enter the value by which you want to rotate the servo?");
+  while(Serial.available()==0)
+  {
+  }
+  servopos=Serial.parseInt();
+  servopos=servopos%180;
+  
+  myservo.write(servopos);
+}
