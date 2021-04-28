@@ -1,0 +1,38 @@
+String msg1="Which led you want to blink ";
+int t=500;
+String ledname;
+void setup()
+{
+  Serial.begin(9600);	
+  pinMode(9, OUTPUT);
+   pinMode(10, OUTPUT);
+ pinMode(11, OUTPUT);
+}
+
+void loop()
+{
+  Serial.print(msg1);
+  while(Serial.available()==0)
+  {
+  }
+  
+  ledname=Serial.readString();
+  if(ledname=="red")
+  {digitalWrite(9,HIGH);
+  delay(t);
+  digitalWrite(9,LOW);
+  delay(t);
+  }
+  else if(ledname=="green")
+  {digitalWrite(10,HIGH);
+  delay(t);
+  digitalWrite(10,LOW);
+  delay(t);
+  }
+  else if(ledname=="blue")
+  {digitalWrite(11,HIGH);
+  delay(t);
+  digitalWrite(11,LOW);
+  delay(t);
+  }
+}
