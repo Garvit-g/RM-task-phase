@@ -1,0 +1,21 @@
+long time;
+int d;
+void setup()
+{
+   pinMode(9, OUTPUT);
+pinMode(10, INPUT); 
+Serial.begin(9600);
+}
+
+void loop()
+{
+digitalWrite(9, LOW);
+delay(200);
+digitalWrite(9, HIGH);
+delayMicroseconds(200);
+digitalWrite(9, LOW);
+time = pulseIn(10, HIGH);
+d= time*0.034/2;
+Serial.print("The distance is: ");
+Serial.println(d);
+}
