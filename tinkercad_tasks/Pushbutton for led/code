@@ -1,0 +1,24 @@
+int LED=6;
+int button=3;
+int buttonread;
+void setup()
+{
+  pinMode(LED, OUTPUT);
+  pinMode(button, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  buttonread=digitalRead(button);
+  Serial.println(buttonread);
+  //delay(500);
+  if(buttonread==0)
+  {digitalWrite(LED,LOW);
+  }
+   if(buttonread==1)
+  {digitalWrite(LED,HIGH);
+  }
+  
+  
+}
