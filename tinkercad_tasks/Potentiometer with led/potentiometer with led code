@@ -1,0 +1,19 @@
+int ppin=A2;
+int gpin=6;
+int pval;
+float LED;
+void setup()
+{
+  pinMode(ppin, INPUT);
+  pinMode(gpin,OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  pval=analogRead(ppin);
+  LED=(255./1023.)*pval;
+  analogWrite(gpin,LED);
+  Serial.println(LED);
+  
+}
