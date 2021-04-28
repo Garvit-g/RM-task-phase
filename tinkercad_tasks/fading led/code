@@ -1,0 +1,16 @@
+int bright=0;
+int fade=5;
+void setup()
+{
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(9, bright);
+  bright=bright+fade;// Wait for 1000 millisecond(s)
+  /*digitalWrite(13, LOW);*/
+  if(bright==0 || bright==255)
+  {fade=-fade;}
+  delay(100); // Wait for 1000 millisecond(s)
+}
