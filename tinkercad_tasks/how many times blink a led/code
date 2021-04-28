@@ -1,0 +1,28 @@
+int num;
+int t=500;
+int j;
+int pin=9;
+String msg="Enter your number:";
+String msg1="Your number is:";
+void setup()
+{
+ Serial.begin(9600);
+ pinMode(pin,OUTPUT); 
+}
+
+void loop()
+{
+  Serial.println(msg);
+  while(Serial.available()==0)
+  {
+    
+  }
+  num=Serial.parseInt();
+  for(j=1;j<=num;j++)
+  {
+    digitalWrite(pin,HIGH);
+    delay(t);
+    digitalWrite(pin,LOW);
+    delay(t);
+  }
+}  
