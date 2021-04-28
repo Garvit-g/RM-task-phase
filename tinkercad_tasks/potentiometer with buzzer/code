@@ -1,0 +1,20 @@
+int ppin=A2;
+int buzzer=10;
+int pval;
+//int tone;
+void setup()
+{
+  pinMode(buzzer, OUTPUT);
+  pinMode(ppin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  pval=analogRead(ppin);
+  int tone=(9940./1023.)*pval+60;
+  digitalWrite(buzzer,HIGH);
+  delayMicroseconds(tone);
+  digitalWrite(buzzer,LOW);
+  delayMicroseconds(tone);
+}
