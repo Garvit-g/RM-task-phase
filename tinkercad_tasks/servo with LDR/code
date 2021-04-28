@@ -1,0 +1,22 @@
+#include <Servo.h>
+int servopin=9;
+int resistorpin=A0;
+int servopos=0;
+Servo myservo;
+void setup()
+{
+  myservo.attach(servopin);
+  pinMode(resistorpin, INPUT);
+  Serial.begin(9600);
+}
+int i;
+void loop()
+{
+ i=analogRead(A0);
+  servopos=((-4.)/23.)*i+(4)*((974.)/(23.));
+ 
+   myservo.write(servopos);  
+   delay(300);
+  Serial.println(servopos);
+  
+}
