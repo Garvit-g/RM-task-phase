@@ -40,8 +40,9 @@
             
 <h3>Machine learning</h3><br>
             a)Matlab(coursera)<br>
-                  1)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex1">Ex1</a><br>
-                  2)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex2">Ex2</a><br>
+                  &emsp;1)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex1">Ex1</a><br>
+                  &msp;2)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex2">Ex2</a><br>
             b)Python<br>
-                  1)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/Machine%20learning/python/Linear%20Regression.py">Linear Regression</a><br>
-               
+                  &emsp;1)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/Machine%20learning/python/Linear%20Regression.py">Linear Regression</a><br>
+                   &emsp;2)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/Machine%20learning/python/logistic%20regression.py">Logistic Regression</a><br>
+                  
