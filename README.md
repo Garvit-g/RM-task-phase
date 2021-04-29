@@ -38,10 +38,10 @@
             19)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/joystick%20code">Code for joystick</a><br>
             20)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/simple%20code%20for%20stepper%20motor">stepper motor</a><br>
             
-<h3>Machine learning</h3>
-            a)Matlab(coursera)
+<h3>Machine learning</h3><br>
+            a)Matlab(coursera)<br>
                   1)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex1">Ex1</a><br>
                   2)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex2">Ex2</a><br>
-            b)Python
+            b)Python<br>
                   1)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/Machine%20learning/python/Linear%20Regression.py">Linear Regression</a><br>
                
