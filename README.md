@@ -27,7 +27,7 @@
             8)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/differential%20drive%20using%20ultrasonic%20sensors">Differential drive using ultrasonic sensor</a><br>
             9)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/fading%20led">fading led</a><br>
             10)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/how%20many%20times%20blink%20a%20led">How many times blink a led</a><br>
-            11)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/making%20calculator%20using%20led%20screen">Making calculator using led screen</a>
+            11)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/making%20calculator%20using%20led%20screen">Making calculator using led screen</a><br>
             12)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/moving%20a%20bot%20(differential%20drive)">Differential drive</a><br>
             13)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/photoresistor%20and%20led">Photoresistor task</a><br>
             14)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/potentiometer%20with%20buzzer">Potentiometer with buzzer</a><br>
@@ -35,6 +35,6 @@
             16)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/using%20led%20screen">Using led screen</a><br>
             17)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/using%20servo%20and%20getting%20value%20from%20serial%20monitorvalue%20from">Using servo</a><br>
             18)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/which%20led%20to%20light">which led to light</a><br>
-            19)<a href"https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/joystick%20code">Code for joystick</a><br>
+            19)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/joystick%20code">Code for joystick</a><br>
             20)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/simple%20code%20for%20stepper%20motor">stepper motor</a><br>
                
