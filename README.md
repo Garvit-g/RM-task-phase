@@ -1,6 +1,6 @@
 # RM-task-phase
    <h4>Things done till now</h4>
-      <h3>1)C++ programming</h3>    
+      <h3>C++ programming</h3>    
           a)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/amicable%20numbers.cpp">amicable numbers</a><br>                      
           b)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/converting%20matrix%20elements.cpp">converting complementary matrix elements of rows and columns to 0 which contain 0</a><br>                  
           c)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week1/hill%20number.cpp">hill numbers</a><br>         
@@ -17,7 +17,7 @@
           o)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/factorial.cpp">calculating factorial using recursion</a><br>                  
           p)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/fib_recursion.cpp">fibonacci using recursion</a><br>                 
           q)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/C_tasks/week3/sum_of_digit1.cpp">sum of digits of a number using recursion</a><br>
-      <h3>2)Tinkercad tasks</h3><br>      
+      <h3>Tinkercad tasks</h3><br>      
             1)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/IR%20sensor">IR Sensor</a><br>                 2)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/Potentiometer%20with%20led">Potentiometer with led</a><br>
             3)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/Pushbutton%20for%20led">Pushbutton with led</a><br>
             4)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/tinkercad_tasks/RGB%20LED">RGB LED</a><br>
@@ -38,8 +38,7 @@
             19)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/joystick%20code">Code for joystick</a><br>
             20)<a href="https://github.com/Garvit-g/RM-task-phase/blob/main/tinkercad_tasks/simple%20code%20for%20stepper%20motor">stepper motor</a><br>
             
-            
-      <h3>Machine learning</h3>
+<h3>Machine learning</h3>
             a)Matlab(coursera)
                   1)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex1">Ex1</a><br>
                   2)<a href="https://github.com/Garvit-g/RM-task-phase/tree/main/Machine%20learning/Matlab/ex2">Ex2</a><br>
